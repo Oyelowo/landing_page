@@ -29,7 +29,7 @@ nav ul li {
     float: right; 
 }
 
-li a, .dropbtn {
+nav ul li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
@@ -37,11 +37,11 @@ li a, .dropbtn {
     text-decoration: none;
 }
 
-li a:hover, .dropdown:hover .dropbtn {
+nav ul li a:hover, .dropdown:hover .dropbtn {
     background-color: grey;
 }
 
-li.dropdown {
+nav ul li.dropdown {
     display: inline-block;
 }
 
