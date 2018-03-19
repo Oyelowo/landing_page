@@ -3,9 +3,11 @@
     text-align: center;
 }
 
-nav > img{
-   float: left;
-   display;
+nav{
+    height: 30px;
+}
+nav > ul li a img{
+  height: 25px;
 
 }
 
@@ -14,14 +16,17 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: black;
 }
 
-nav ul li:first-child { float: left; }
+nav ul li:first-child { 
+    float: left; 
+}
+
 
 nav ul li { 
-
-  float: right; 
+    height: 100%;
+    float: right; 
 }
 
 li a, .dropbtn {
@@ -33,7 +38,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: grey;
 }
 
 li.dropdown {
