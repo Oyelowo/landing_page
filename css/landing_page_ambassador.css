@@ -3,20 +3,21 @@
     text-align: center;
 }
 
-nav{
-    height: 30px;
+body{
+    margin: 0 auto;
 }
 nav > ul li a img{
   height: 25px;
 
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
+    top: 0;
 }
 
 nav ul li:first-child { 
@@ -38,7 +39,8 @@ nav ul li a, .dropbtn {
 }
 
 nav ul li a:hover, .dropdown:hover .dropbtn {
-    background-color: grey;
+    background-color: rgb(8, 104, 110);
+    color: white;
 }
 
 nav ul li.dropdown {
