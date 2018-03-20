@@ -21,7 +21,7 @@ header {
     list-style: none;
     top: 0;  
     height: 90px;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: -16px auto;
     background: black;
     color: white;
@@ -82,18 +82,34 @@ header {
     background-color: grey;
 }
 
+main{
+    max-width: 1700px;
+    margin: auto;
+}
 #upper-part{
-    background-color: aqua;
+    background: url("https://lh3.googleusercontent.com/oqWDNA4QUE4hU5SYcXmi0bhQ-Crwd2DTg5ByBUzxaBxJlKg-K5OfEikxAh008-IBzoEbTfx2y4ojp60RIGnk8Ql8bs3QrPpLLIPlULX2lniCpFWBkD3bDJ4chKu-27GcJw2eurwH-cPBLIfnP0BGGDsdg06YczyU3ElGhzF5d-Bn8W6IiXJkYRsU8mAHZBNpZjELDurXLOS_FUbWSXHvrc4rIiY59AyeiQLrK3BI8AF-OiHZFHHaj3k_yQZ5e81hJBy08YPnRATcO5pr9Zo7jYdwq2g_aaAywLNPqQs-xLZBbbIqN5qDrIaLLWLKOMr_yOPeHu5GEcM-zDlaA1GPkWg7RQTp58sFzyA4vW_bg0ce--qYlt4_E6pBU5whpQaWReZSpom0bOJ_EdpmlZyrsbLELH6G3fY8qE_NNwmYeaaHsPaEpiXCkdQRoRbQxY5vAolVULcBkosyhxQfWG5zhHGNB9WnjPNPHAmLmbZss1Gmm4D1VRTBGl7CDwd_ByQUeK39IqUBQrcXd-pCGIssVOvVTM8KJcl5NiHmmCSMDkUdzCmQd_dn0dpLePvHX15DuAWhhucwKeNMj533ljPzJldBpckCtwKd41g7Rg_i=w880-h660-no");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
     height: 500px;
 }
 
+#part1{
+    background: rgba(163, 223, 86, 0.8);
+    height: 100%;
+}
 
 #lower-part{
+    background-color: black;
     height: 700px;
 }
 
 
-@media only screen and (max-width: 700px) {
+
+
+
+/* responsive for smaller screen */
+@media only screen and (max-width: 650px) {
     body {
         background-color: lightblue;
     }
