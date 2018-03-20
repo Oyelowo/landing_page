@@ -99,7 +99,7 @@ main{
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    height: 500px;
+    height: 600px;
 }
 
 #part1 p{
@@ -141,5 +141,6 @@ main{
     }
     #part1 p{
         font-size: 1.4em;
+        padding-top: 70px; 
     }
 }
