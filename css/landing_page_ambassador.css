@@ -111,7 +111,9 @@ main{
 }
 
 #part1{
-    background: rgba(44, 61, 3, 0.8);
+    /* background: rgba(72, 104, 42, 0.8); */
+    background: #673AB7;
+    opacity: 0.9; 
     height: 100%;
 }
 
@@ -131,6 +133,7 @@ main{
     }
     header{
         position: relative;
+        
     }
 
     .ambassador{
@@ -139,8 +142,11 @@ main{
         align-items: center;
         height: auto;
     }
+    main{
+        padding-top: 135px;
+    }
     #part1 p{
         font-size: 1.4em;
-        padding-top: 70px; 
+        padding-top: 72px; 
     }
 }
