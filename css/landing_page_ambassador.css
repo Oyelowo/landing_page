@@ -20,7 +20,7 @@ header {
     display: flex;
     list-style: none;
     top: 0;  
-    height: 40px;
+    height: 90px;
     max-width: 1200px;
     margin: -16px auto;
     background: black;
@@ -29,6 +29,7 @@ header {
     align-items: center;
     justify-content: space-around;
     padding-left: 0;
+    font-size: 1.1875em;
 }
 
 #logo{
@@ -40,8 +41,9 @@ header {
     margin-right: auto;
 }
 
+/* space the menu bar at the top right corner */
 .ambassador li:not(:first-child):not(.search-bar){
-    margin-right: 9px;
+    margin-right: 20px;
 }
 
 .ambassador li{
@@ -103,5 +105,6 @@ header {
         display: flex;
         flex-direction: column;
         align-items: center;
+        height: auto;
     }
 }
