@@ -11,18 +11,22 @@
     margin: auto;
 }
 
+/* keep the background of nav-bar black even when zoomed out */
 header {
-    top: 0;  
-    max-width: 1200px;
-    margin: -16px auto;
+    background: black;
 }
 
 .ambassador{
     display: flex;
     list-style: none;
+    top: 0;  
+    height: 40px;
+    max-width: 1200px;
+    margin: -16px auto;
     background: black;
     color: white;
     padding: 12px;
+    align-items: center;
     justify-content: space-around;
     padding-left: 0;
 }
