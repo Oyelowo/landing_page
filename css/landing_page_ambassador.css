@@ -18,7 +18,7 @@ header {
     position: fixed;
     display: flex;
     width: 100%;
-    height: 100px;
+    height: 70px;
 }
 
 .ambassador{
@@ -46,6 +46,8 @@ header {
     margin-right: auto;
 }
 
+
+
 /* space the menu bar at the top right corner */
 .ambassador li:not(:first-child):not(.search-bar){
     margin-right: 20px;
@@ -55,7 +57,7 @@ header {
     cursor: pointer;
 }
 
-.ambassador li:not(.amb-dropdown):hover{
+.ambassador li:not(.amb-dropdown):hover:not(.search-bar){
     background-color: rgba(160, 182, 120, 0.836);
 }
 
@@ -88,7 +90,7 @@ header {
 }
 
 main{
-    padding-top: 100px;
+    padding-top: 70px;
     max-width: 1700px;
     margin: auto;
 }
@@ -109,7 +111,7 @@ main{
 }
 
 #part1{
-    background: rgba(163, 223, 86, 0.8);
+    background: rgba(44, 61, 3, 0.8);
     height: 100%;
 }
 
